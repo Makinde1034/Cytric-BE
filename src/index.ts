@@ -1,8 +1,6 @@
 import express from "express";
 import routes from "./routes";
 import cors from "cors";
-import { verifyJWT } from "./libs/jwt";
-import { Request, Response } from "express";
 
 const app = express();
 
