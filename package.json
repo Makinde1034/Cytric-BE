@@ -33,8 +33,6 @@
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/jsonwebtoken": "^9.0.8",
-    "@types/mongodb": "^3.6.20",
-    "@types/mongoose": "^5.11.97",
     "@types/node": "^22.13.4",
     "nodemon": "^3.1.9",
     "typescript": "^5.7.3"
