@@ -19,15 +19,7 @@ app.use(
 app.use(express.json({ limit: "50mb" }));
 app.use(express.static("uploads"));
 
-app.get(
-  "/jwt/verify",
-  cors(corsOptions),
-  verifyJWT,
-  (req: Request, res: Response) => {
-    res.json({ msg: "you are authorised", authenticated: true });
-    console.log("jwt verified");
-  }
-);
+
 
 app.use(cors(corsOptions));
 
